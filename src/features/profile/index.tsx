@@ -4,9 +4,9 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { Search, MoreVert } from "@mui/icons-material";
-import { CurrentUser } from "../../constants/constants";
+import { userData } from "../../constants/constants";
 import UserList from "../users/users";
-import "./index.css";
+import "./index.scss";
 
 const Header: React.FC = () => {
   return (
@@ -14,10 +14,10 @@ const Header: React.FC = () => {
       <AppBar className="appBar" position="static">
         <Toolbar className="toolbar">
           <div className="profileIcon">
-            <span className="iconText">{CurrentUser?.profileIcon}</span>
+            <span className="iconText">{userData[0]?.profileIcon}</span>
           </div>
           <Typography ml={1} className="userName" variant="h6">
-            {CurrentUser?.name}
+            {userData[0]?.name}
           </Typography>
           <IconButton
             className="searchIcon"

@@ -1,5 +1,3 @@
-// ChatBox.jsx
-
 import React, { useState, useRef, useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import IconButton from "@mui/material/IconButton";
@@ -7,7 +5,7 @@ import SendIcon from "@mui/icons-material/Send";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { Divider, Typography } from "@mui/material";
 import { MoreVert } from "@mui/icons-material";
-import "./index.css";
+import "./index.scss";
 
 interface ChatBoxProps {
   selectedUser: any;

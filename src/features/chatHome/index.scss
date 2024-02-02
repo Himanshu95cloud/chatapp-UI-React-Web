@@ -1,18 +1,14 @@
-/* ChatBox.css */
-
+.no-chats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  background-color: #f5f5f5;
+}
 .chat-box {
-    position: relative;
-    min-height: 100%;
-  }
-  
-  .no-chats {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100%;
-    background-color: #f5f5f5;
-  }
-  
+  position: relative;
+  min-height: 100%;
+
   .chat-header {
     display: flex;
     justify-content: space-between;
@@ -20,13 +16,13 @@
     padding: 16px;
     background-color: #f0f0f0;
   }
-  
+
   .user-details {
     display: flex;
     align-items: center;
     column-gap: 10px;
   }
-  
+
   .profile-icon {
     border-radius: 50%;
     width: 40px;
@@ -37,7 +33,7 @@
     justify-content: center;
     background-color: white;
   }
-  
+
   .chat-messages {
     display: flex;
     flex-direction: column-reverse;
@@ -50,7 +46,7 @@
     overflow-y: auto;
     padding-right: 16px;
   }
-  
+
   .message-container {
     display: flex;
     align-items: center;
@@ -59,16 +55,14 @@
     border: 1px solid rgb(197, 188, 188);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 4px;
-
   }
-  
+
   .message {
     margin-right: 8px;
     color: #004d40;
     padding: 5px;
-    
   }
-  
+
   .chat-input {
     display: flex;
     align-items: center;
@@ -76,7 +70,5 @@
     position: absolute;
     bottom: 0;
     width: 90%;
-
   }
-  
-  
+}

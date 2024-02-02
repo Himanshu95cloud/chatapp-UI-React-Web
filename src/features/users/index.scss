@@ -1,0 +1,110 @@
+.userListContainer {
+  display: flex;
+  height: 92vh;
+
+  > :nth-child(3) {
+    border-left: 1px solid #004d40;
+    height: 92vh;
+  }
+
+  .userList {
+    flex: 1 1 20%;
+    overflow-y: auto;
+  }
+
+  .searchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .userItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid #009688;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .profileIconContainer {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #009688;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .profileIcon {
+    padding: 20px;
+    color: grey;
+  }
+
+  .userName {
+    margin-left: 10px;
+  }
+
+  .chatContainer {
+    flex: 1 1 80%;
+  }
+  .icon-add {
+    border: 1px solid #009688;
+  }
+}
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modalContent {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .modalHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .modalBody {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .modalFooter {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .inputContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  .textInput {
+    flex: 1;
+  }
+
+  .addButton {
+    align-self: flex-end;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cancelButton {
+    background-color: #004d40 !important;
+  }
+}

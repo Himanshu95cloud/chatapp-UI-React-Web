@@ -1,12 +1,11 @@
 .appBar {
-    background: #009688 !important;
+  background: #009688 !important;
 
-  
   .toolbar {
     display: flex;
     align-items: center;
   }
-  
+
   .profileIcon {
     border: 1px solid white;
     border-radius: 50%;
@@ -17,18 +16,18 @@
     justify-content: center;
     background-color: white;
   }
-  
+
   .iconText {
     padding: 5px !important;
     color: grey;
     cursor: pointer;
   }
-  
+
   .userName {
     flex-grow: 1;
     text-align: left;
   }
-  
+
   .searchIcon,
   .moreOptionsIcon {
     color: white;
