@@ -1,0 +1,42 @@
+.userListContainer {
+    display: flex;
+    height: 90vh;
+  }
+  
+  .userList {
+    flex: 1 1 20%;
+    overflow-y: auto;
+  }
+  
+  .userItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid #009688;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .profileIconContainer {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #009688;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .profileIcon {
+    padding: 20px;
+    color: grey;
+  }
+  
+  .userName {
+    margin-left: 10px;
+  }
+  
+  .chatContainer {
+    flex: 1 1 80%;
+  }
+  
